@@ -1,0 +1,77 @@
+.reposWrapper {
+  font-size: 25;
+  font-weight: 600;
+  margin-top: 5rem;
+}
+
+.item:hover {
+  background-color: #f8f8fa;
+  cursor: pointer;
+}
+
+.avatarWrapper {
+  height: 48px;
+  /* width: 150px; */
+  margin: 1rem auto;
+  margin-top: 1rem;
+  border-radius: 24px;
+  background-color: #ebebef;
+  display: inline-block;
+}
+
+.imageContainer {
+  width: 48px;
+  height: 48px;
+  border-radius: 50%;
+  background-color: #aaa;
+  overflow: hidden;
+  display: inline-block;
+}
+
+.image {
+  width: 100%;
+  height: 100%;
+}
+
+.usernameContainer {
+  display: inline-block;
+  padding: 0 1rem;
+  align-items: center;
+  transform: translateY(-18px);
+}
+
+.back_button {
+  margin: 6rem 0rem 0rem;
+  width: 150px;
+  height: 30px;
+  background-color: #f72da6;
+  color: #fff;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+}
+
+.back_button:hover {
+  background-color: #a9147a;
+  border-color: #9a0e95;
+  transform: translateX(3);
+}
+
+.item {
+  list-style-type: none;
+  display: flex;
+  /* flex-direction: column; */
+  flex: 1;
+  padding-left: 2rem;
+  height: 48px;
+  width: 100%;
+  align-items: center;
+}
+
+.icon {
+  flex: 0;
+}
+
+.username {
+  flex: 1;
+}

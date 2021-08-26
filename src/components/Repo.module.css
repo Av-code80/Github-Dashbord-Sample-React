@@ -1,0 +1,68 @@
+.repo_container {
+  font-size: 16px;
+}
+
+.url {
+  font-size: 12px;
+  color: gray;
+}
+
+.repo_info_container {
+  display: flex;
+  flex-direction: column;
+}
+
+.avatarWrapper {
+  display: flex;
+  margin-bottom: 2rem;
+}
+
+.avatar_url {
+  height: 48px;
+  width: 48px;
+  border-radius: 50%;
+  margin: 2px 8px;
+}
+
+.user_info {
+  margin: 20px 0;
+  font-size: 30px;
+}
+
+.repo_name {
+  font-size: 30px;
+  margin: 5px 0;
+}
+
+.repo_language {
+  color: gray;
+}
+
+.repo_desc {
+  font-size: 25;
+  font-weight: 600;
+  margin: 15px 0 0 0;
+}
+
+.back_button {
+  margin: 20px 0;
+  width: 150px;
+  height: 30px;
+  background-color: #f72da6;
+  color: white;
+  border-radius: 4px;
+  border: 0;
+  cursor: pointer;
+}
+
+.back_button:hover {
+  background-color: #a9147a;
+  border-color: #9a0e95;
+  transform: translateX(3);
+}
+
+.repo_start {
+  font-size: 25;
+  font-weight: 600;
+  margin: 20px 0 0 0;
+}

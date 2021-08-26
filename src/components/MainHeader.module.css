@@ -1,0 +1,24 @@
+.main-header {
+  position: fixed;
+  z-index: 10;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 5rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background: #05b5b8fe;
+  padding: auto;
+}
+
+.main-header h1 {
+  color: #fff;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.main-header .faBars {
+  font-size: 2rem;
+  margin-left: 2rem;
+}

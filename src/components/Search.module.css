@@ -1,0 +1,60 @@
+.form {
+  width: 100%;
+  margin: 17rem 25rem;
+  display: flex;
+}
+
+.control {
+  display: flex;
+}
+
+.control input {
+  font: inherit;
+  width: 18rem !important;
+  margin-right: 1rem;
+  border: none;
+  border-bottom: 1px solid #a19fa2 !important;
+  padding: 0 0.5rem !important;
+  background-color: #fff;
+}
+
+.action {
+  margin-left: 1rem;
+}
+
+.action button {
+  font: inherit;
+  cursor: pointer;
+  padding: 0.8rem 1rem;
+  background-color: #f72da6;
+  color: #fff;
+  border: 1px solid #8e0d3a;
+  text-transform: uppercase;
+}
+
+.action button:hover {
+  background-color: #a9147a;
+  border-color: #9a0e95;
+  transform: translateX(3);
+}
+.action button:active {
+  box-shadow: #a9147a;
+  transform: translateY(2px);
+}
+
+@media only screen and (max-width: 600px) {
+  .form {
+    width: 100%;
+    margin: 22rem 1rem;
+  }
+
+  .control input {
+    width: 20rem;
+    border: none;
+    padding: 0;
+  }
+
+  .action {
+    margin-left: 0rem;
+  }
+}
