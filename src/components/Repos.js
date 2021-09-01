@@ -1,13 +1,17 @@
 import React, { useEffect, useState } from 'react'
-import styles from './Repos.module.css'
 import { FaSave } from 'react-icons/fa'
+import styles from './Repos.module.css'
 
 export default function Repos({ username, userRepos, onRepoSelect }) {
   const [avatarUrl, setAvatarUrl] = useState('')
 
   useEffect(() => {
     if (avatarUrl) return
-    fetch(`https://api.github.com/users/${username}`)
+
+    var controller = new AbortController();
+    var signal = controller.signal;
+    function fetchRepos() {
+     fetch(`https://api.github.com/users/${username}`, {signal})
       .then((res) => {
         if (res.status === 200) {
           return res.json()
@@ -18,8 +22,10 @@ export default function Repos({ username, userRepos, onRepoSelect }) {
       .then((data) => {
         setAvatarUrl(data.avatar_url)
       })
-      .catch((err) => console.log('Error: ' + err))
-  }, [username, avatarUrl])
+      .catch((err) => console.log("Download error: " + err.message))
+    }  
+    fetchRepos()
+  }, [username, avatarUrl]) 
 
   return (
     <>

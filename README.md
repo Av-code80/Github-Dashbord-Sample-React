@@ -2,11 +2,10 @@
 
 # Description
 
-● L’objectif de cet exercice est de créer une application nommée Github Dashboard Sample en React
+● L’objectif de ce projet exercice est de créer une application nommée Github Dashboard Sample en React
 servant de base de discussion pour votre entretien.
 ● Les interfaces de ce document sont à titre indicatif.
 ● Vous pouvez développer votre application sur https://codesandbox.io ou pousser votre code sur Github.
-● Merci de nous communiquer le lien de votre code dans les 24h précédant votre entretien.
 
 # Partie 1
 
