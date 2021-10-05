@@ -2,14 +2,13 @@
 
 # Description
 
-● L’objectif de ce projet d'exercice est de créer une application nommée Github Dashboard Sample en React
-servant de base de discussion pour votre entretien.
+● L’objectif de ce projet d'exercice est de créer une application nommée Github Dashboard Sample en React.js.
 ● Les interfaces de ce document sont à titre indicatif.
-● Vous pouvez développer votre application sur https://codesandbox.io ou pousser votre code sur Github.
+
 
 # Partie 1
 
-● Ecran de recherche
+○ Ecran de recherche
 ○ Créer un header avec le titre
 ○ Créer un champ de recherche
 ○ Créer un bouton de validation
@@ -17,7 +16,7 @@ servant de base de discussion pour votre entretien.
 
 # Partie 2
 
-● Dashboard
+○ Dashboard
 ○ Mettre en place la récupération
 des données via l’api Github
 ○ Afficher le nom de l’utilisateur
@@ -26,7 +25,7 @@ des données via l’api Github
 
 # Partie 3
 
-● Ecran de détails d’un dépôt
+○ Ecran de détails d’un dépôt
 ○ Afficher les informations du dépôt sélectionné
 ■ Nom
 ■ Langage
