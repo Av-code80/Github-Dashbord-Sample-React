@@ -11,7 +11,7 @@ import Footer from './components/Footer'
 //styles
 import './App.css'
 
-const App = () => {
+const App = () => { 
   //states
   const [username, setUsername] = useState('') // logic for username selection
   const [userRepos, setUserRepos] = useState([]) // logic for repo searching
